@@ -27,6 +27,11 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+/**
+ * @author Lejil
+ *
+ */
+
 @Component
 public class JwtSecurityFilter extends OncePerRequestFilter {
 
